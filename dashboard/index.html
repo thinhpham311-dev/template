@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link href="/css/styles.css" rel="stylesheet" />
-    <link href="/css/responsive.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
     <title>Dashboard</title>
 </head>
 
@@ -25,7 +25,7 @@
         </div>
         <div class="sidebar-user" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true"
             title="Tooltip Content">
-            <img src="/img/user2-160x160.jpg" />
+            <img src="./img/user2-160x160.jpg" />
             <span>Pham Thuy Tram</span>
         </div>
         <div class="sidebar-menu">
@@ -76,7 +76,8 @@
                         <h3 class="fw-bold mb-0">
                             Work Calendar
                         </h3>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                             <i class="bi bi-calendar-plus"></i><span>Add</span>
                         </button>
                     </div>
@@ -572,30 +573,34 @@
                             <table class="table table-striped table-responsive">
                                 <thead class="sticky-top bg-white">
                                     <tr>
-                                        <th scope="col">ID</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Customer Name</th>
-                                        <th scope="col">BU (product)</th>
+                                        <th scope="col"></th>
+                                        <th scope="col">BU</th>
+                                        <th scope="col">Product</th>
                                         <th scope="col">Model</th>
-                                        <th scope="col">Serial number</th>
-                                        <th scope="col">Activity type</th>
-                                        <th scope="col">Task name</th>
-                                        <th scope="col">Actions details</th>
-                                        <th scope="col">Conclusion/suggestions</th>
-                                        <th scope="col">Service result</th>
-                                        <th scope="col">Claimpart</th>
-                                        <th scope="col">Quotation Request</th>
-                                        <th scope="col">Traveling hours</th>
-                                        <th scope="col">Working hours</th>
-                                        <th scope="col">TOSC (hours)</th>
-                                        <th scope="col">Manager assessment
+                                        <th scope="col">Serial</th>
+                                        <th scope="col">Manufacturer</th>
+                                        <th scope="col">Provider</th>
+                                        <th scope="col">Dealer</th>
+                                        <th scope="col">PO</th>
+                                        <th scope="col">Arrival date</th>
+                                        <th scope="col">Warranty period</th>
+                                        <th scope="col">War.Expireddate</th>
+                                        <th scope="col">War.Startingdate</th>
+                                        <th scope="col">Contract No</th>
+                                        <th scope="col">Customer Name</th>
+                                        <th scope="col">Province</th>
+                                        <th scope="col">Installation date
                                         </th>
-                                        <th scope="col">Engineer</th>
+                                        <th scope="col">Peripherals</th>
+                                        <th scope="col">Notes</th>
+                                        <th scope="col">Source</th>
+                                        <th scope="col">Followers
+                                        </th>
+                                        <th scope="col"></th>
                                     </tr>
                                     <tr>
                                         <th scope="col">
-                                            <input type="text" class="form-control" placeholder="" aria-label="Search"
-                                                aria-describedby="basic-addon1">
+                                            <button type="button" class="btn btn-primary w-100">New</button>
                                         </th>
                                         <th scope="col"> <input type="text" class="form-control" placeholder=""
                                                 aria-label="Search" aria-describedby="basic-addon1"></th>
@@ -629,9 +634,17 @@
                                                 aria-label="Search" aria-describedby="basic-addon1"></th>
                                         <th scope="col"> <input type="text" class="form-control" placeholder=""
                                                 aria-label="Search" aria-describedby="basic-addon1">
-                                        </th>
                                         <th scope="col"> <input type="text" class="form-control" placeholder=""
                                                 aria-label="Search" aria-describedby="basic-addon1"></th>
+                                        <th scope="col"> <input type="text" class="form-control" placeholder=""
+                                                aria-label="Search" aria-describedby="basic-addon1"></th>
+                                        <th scope="col"> <input type="text" class="form-control" placeholder=""
+                                                aria-label="Search" aria-describedby="basic-addon1"></th>
+                                        <th scope="col"> <input type="text" class="form-control" placeholder=""
+                                                aria-label="Search" aria-describedby="basic-addon1"></th>
+                                  
+                                        <th scope="col"> <button type="button" class="btn btn-primary w-100">Import
+                                                Excel</button> </th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -654,6 +667,11 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -674,6 +692,11 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -694,6 +717,11 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -714,6 +742,11 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -734,6 +767,11 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -754,7 +792,38 @@
                                         <td>@mdo</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
                                     </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                      
+                                    </tr>
+                                   
                                 </tbody>
                             </table>
                         </div>
@@ -771,34 +840,34 @@
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
                 </div>
-              </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
